@@ -11,6 +11,7 @@
 		43093DFE1ABC62C5003B31D2 /* ProblemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43093DFD1ABC62C5003B31D2 /* ProblemViewController.m */; };
 		43093E041ABC6396003B31D2 /* ProblemsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43093E031ABC6396003B31D2 /* ProblemsTableViewController.m */; };
 		43093E071ABC6519003B31D2 /* Problem001.m in Sources */ = {isa = PBXBuildFile; fileRef = 43093E061ABC6519003B31D2 /* Problem001.m */; };
+		43093E0C1ABC77C9003B31D2 /* Problem002.m in Sources */ = {isa = PBXBuildFile; fileRef = 43093E0B1ABC77C9003B31D2 /* Problem002.m */; };
 		439C151B1ABC6075006F2964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 439C151A1ABC6075006F2964 /* main.m */; };
 		439C151E1ABC6075006F2964 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 439C151D1ABC6075006F2964 /* AppDelegate.m */; };
 		439C15241ABC6075006F2964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439C15221ABC6075006F2964 /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 		43093E031ABC6396003B31D2 /* ProblemsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemsTableViewController.m; sourceTree = "<group>"; };
 		43093E051ABC6519003B31D2 /* Problem001.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem001.h; sourceTree = "<group>"; };
 		43093E061ABC6519003B31D2 /* Problem001.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem001.m; sourceTree = "<group>"; };
+		43093E0A1ABC77C9003B31D2 /* Problem002.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem002.h; sourceTree = "<group>"; };
+		43093E0B1ABC77C9003B31D2 /* Problem002.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem002.m; sourceTree = "<group>"; };
 		439C15151ABC6075006F2964 /* ProjectEuler-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProjectEuler-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		439C15191ABC6075006F2964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		439C151A1ABC6075006F2964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 				43093DFA1ABC62B9003B31D2 /* Problem.m */,
 				43093E051ABC6519003B31D2 /* Problem001.h */,
 				43093E061ABC6519003B31D2 /* Problem001.m */,
+				43093E0A1ABC77C9003B31D2 /* Problem002.h */,
+				43093E0B1ABC77C9003B31D2 /* Problem002.m */,
 			);
 			name = Model;
 			path = ..;
@@ -265,6 +270,7 @@
 				439C151E1ABC6075006F2964 /* AppDelegate.m in Sources */,
 				43093E071ABC6519003B31D2 /* Problem001.m in Sources */,
 				439C151B1ABC6075006F2964 /* main.m in Sources */,
+				43093E0C1ABC77C9003B31D2 /* Problem002.m in Sources */,
 				43093E041ABC6396003B31D2 /* ProblemsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

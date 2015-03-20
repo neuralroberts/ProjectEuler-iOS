@@ -20,6 +20,7 @@
 {
     if (!_problems) {
         NSArray *problems = [NSArray arrayWithObjects:[Problem001 class],
+                             [Problem002 class],
                              nil];
         _problems = problems;
     }

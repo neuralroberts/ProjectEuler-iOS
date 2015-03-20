@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Problem.h"
 #import "Problem001.h"
+#import "Problem002.h"
 
 @interface ProblemViewController : UIViewController <ProblemDelegate>
 
