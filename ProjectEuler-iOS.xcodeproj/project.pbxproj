@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		439C151B1ABC6075006F2964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 439C151A1ABC6075006F2964 /* main.m */; };
+		439C151E1ABC6075006F2964 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 439C151D1ABC6075006F2964 /* AppDelegate.m */; };
+		439C15211ABC6075006F2964 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439C15201ABC6075006F2964 /* ViewController.m */; };
+		439C15241ABC6075006F2964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439C15221ABC6075006F2964 /* Main.storyboard */; };
+		439C15261ABC6075006F2964 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439C15251ABC6075006F2964 /* Images.xcassets */; };
+		439C15291ABC6075006F2964 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 439C15271ABC6075006F2964 /* LaunchScreen.xib */; };
+		439C15351ABC6075006F2964 /* ProjectEuler_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 439C15341ABC6075006F2964 /* ProjectEuler_iOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		439C152F1ABC6075006F2964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 439C150D1ABC6075006F2964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 439C15141ABC6075006F2964;
+			remoteInfo = "ProjectEuler-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		439C15151ABC6075006F2964 /* ProjectEuler-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProjectEuler-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		439C15191ABC6075006F2964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439C151A1ABC6075006F2964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		439C151C1ABC6075006F2964 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		439C151D1ABC6075006F2964 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		439C151F1ABC6075006F2964 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		439C15201ABC6075006F2964 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		439C15231ABC6075006F2964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		439C15251ABC6075006F2964 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		439C15281ABC6075006F2964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		439C152E1ABC6075006F2964 /* ProjectEuler-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProjectEuler-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		439C15331ABC6075006F2964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439C15341ABC6075006F2964 /* ProjectEuler_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectEuler_iOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		439C15121ABC6075006F2964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439C152B1ABC6075006F2964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		439C150C1ABC6075006F2964 = {
+			isa = PBXGroup;
+			children = (
+				439C15171ABC6075006F2964 /* ProjectEuler-iOS */,
+				439C15311ABC6075006F2964 /* ProjectEuler-iOSTests */,
+				439C15161ABC6075006F2964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		439C15161ABC6075006F2964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				439C15151ABC6075006F2964 /* ProjectEuler-iOS.app */,
+				439C152E1ABC6075006F2964 /* ProjectEuler-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		439C15171ABC6075006F2964 /* ProjectEuler-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				439C151C1ABC6075006F2964 /* AppDelegate.h */,
+				439C151D1ABC6075006F2964 /* AppDelegate.m */,
+				439C151F1ABC6075006F2964 /* ViewController.h */,
+				439C15201ABC6075006F2964 /* ViewController.m */,
+				439C15221ABC6075006F2964 /* Main.storyboard */,
+				439C15251ABC6075006F2964 /* Images.xcassets */,
+				439C15271ABC6075006F2964 /* LaunchScreen.xib */,
+				439C15181ABC6075006F2964 /* Supporting Files */,
+			);
+			path = "ProjectEuler-iOS";
+			sourceTree = "<group>";
+		};
+		439C15181ABC6075006F2964 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				439C15191ABC6075006F2964 /* Info.plist */,
+				439C151A1ABC6075006F2964 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		439C15311ABC6075006F2964 /* ProjectEuler-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				439C15341ABC6075006F2964 /* ProjectEuler_iOSTests.m */,
+				439C15321ABC6075006F2964 /* Supporting Files */,
+			);
+			path = "ProjectEuler-iOSTests";
+			sourceTree = "<group>";
+		};
+		439C15321ABC6075006F2964 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				439C15331ABC6075006F2964 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		439C15141ABC6075006F2964 /* ProjectEuler-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439C15381ABC6075006F2964 /* Build configuration list for PBXNativeTarget "ProjectEuler-iOS" */;
+			buildPhases = (
+				439C15111ABC6075006F2964 /* Sources */,
+				439C15121ABC6075006F2964 /* Frameworks */,
+				439C15131ABC6075006F2964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProjectEuler-iOS";
+			productName = "ProjectEuler-iOS";
+			productReference = 439C15151ABC6075006F2964 /* ProjectEuler-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		439C152D1ABC6075006F2964 /* ProjectEuler-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439C153B1ABC6075006F2964 /* Build configuration list for PBXNativeTarget "ProjectEuler-iOSTests" */;
+			buildPhases = (
+				439C152A1ABC6075006F2964 /* Sources */,
+				439C152B1ABC6075006F2964 /* Frameworks */,
+				439C152C1ABC6075006F2964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				439C15301ABC6075006F2964 /* PBXTargetDependency */,
+			);
+			name = "ProjectEuler-iOSTests";
+			productName = "ProjectEuler-iOSTests";
+			productReference = 439C152E1ABC6075006F2964 /* ProjectEuler-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		439C150D1ABC6075006F2964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Joseph Wilkerson";
+				TargetAttributes = {
+					439C15141ABC6075006F2964 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					439C152D1ABC6075006F2964 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 439C15141ABC6075006F2964;
+					};
+				};
+			};
+			buildConfigurationList = 439C15101ABC6075006F2964 /* Build configuration list for PBXProject "ProjectEuler-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 439C150C1ABC6075006F2964;
+			productRefGroup = 439C15161ABC6075006F2964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				439C15141ABC6075006F2964 /* ProjectEuler-iOS */,
+				439C152D1ABC6075006F2964 /* ProjectEuler-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		439C15131ABC6075006F2964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439C15241ABC6075006F2964 /* Main.storyboard in Resources */,
+				439C15291ABC6075006F2964 /* LaunchScreen.xib in Resources */,
+				439C15261ABC6075006F2964 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439C152C1ABC6075006F2964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		439C15111ABC6075006F2964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439C15211ABC6075006F2964 /* ViewController.m in Sources */,
+				439C151E1ABC6075006F2964 /* AppDelegate.m in Sources */,
+				439C151B1ABC6075006F2964 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439C152A1ABC6075006F2964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439C15351ABC6075006F2964 /* ProjectEuler_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		439C15301ABC6075006F2964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 439C15141ABC6075006F2964 /* ProjectEuler-iOS */;
+			targetProxy = 439C152F1ABC6075006F2964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		439C15221ABC6075006F2964 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439C15231ABC6075006F2964 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		439C15271ABC6075006F2964 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439C15281ABC6075006F2964 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		439C15361ABC6075006F2964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		439C15371ABC6075006F2964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		439C15391ABC6075006F2964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ProjectEuler-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		439C153A1ABC6075006F2964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ProjectEuler-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		439C153C1ABC6075006F2964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ProjectEuler-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectEuler-iOS.app/ProjectEuler-iOS";
+			};
+			name = Debug;
+		};
+		439C153D1ABC6075006F2964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ProjectEuler-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectEuler-iOS.app/ProjectEuler-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		439C15101ABC6075006F2964 /* Build configuration list for PBXProject "ProjectEuler-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439C15361ABC6075006F2964 /* Debug */,
+				439C15371ABC6075006F2964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		439C15381ABC6075006F2964 /* Build configuration list for PBXNativeTarget "ProjectEuler-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439C15391ABC6075006F2964 /* Debug */,
+				439C153A1ABC6075006F2964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		439C153B1ABC6075006F2964 /* Build configuration list for PBXNativeTarget "ProjectEuler-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439C153C1ABC6075006F2964 /* Debug */,
+				439C153D1ABC6075006F2964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 439C150D1ABC6075006F2964 /* Project object */;
+}
