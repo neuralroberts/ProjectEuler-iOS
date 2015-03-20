@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43093DFB1ABC62B9003B31D2 /* Problem.m in Sources */ = {isa = PBXBuildFile; fileRef = 43093DFA1ABC62B9003B31D2 /* Problem.m */; };
+		43093DFE1ABC62C5003B31D2 /* ProblemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43093DFD1ABC62C5003B31D2 /* ProblemViewController.m */; };
+		43093E041ABC6396003B31D2 /* ProblemsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43093E031ABC6396003B31D2 /* ProblemsTableViewController.m */; };
+		43093E071ABC6519003B31D2 /* Problem001.m in Sources */ = {isa = PBXBuildFile; fileRef = 43093E061ABC6519003B31D2 /* Problem001.m */; };
 		439C151B1ABC6075006F2964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 439C151A1ABC6075006F2964 /* main.m */; };
 		439C151E1ABC6075006F2964 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 439C151D1ABC6075006F2964 /* AppDelegate.m */; };
-		439C15211ABC6075006F2964 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439C15201ABC6075006F2964 /* ViewController.m */; };
 		439C15241ABC6075006F2964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439C15221ABC6075006F2964 /* Main.storyboard */; };
 		439C15261ABC6075006F2964 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439C15251ABC6075006F2964 /* Images.xcassets */; };
 		439C15291ABC6075006F2964 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 439C15271ABC6075006F2964 /* LaunchScreen.xib */; };
@@ -27,13 +30,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43093DF91ABC62B9003B31D2 /* Problem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem.h; sourceTree = "<group>"; };
+		43093DFA1ABC62B9003B31D2 /* Problem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem.m; sourceTree = "<group>"; };
+		43093DFC1ABC62C5003B31D2 /* ProblemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemViewController.h; sourceTree = "<group>"; };
+		43093DFD1ABC62C5003B31D2 /* ProblemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemViewController.m; sourceTree = "<group>"; };
+		43093E021ABC6396003B31D2 /* ProblemsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemsTableViewController.h; sourceTree = "<group>"; };
+		43093E031ABC6396003B31D2 /* ProblemsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemsTableViewController.m; sourceTree = "<group>"; };
+		43093E051ABC6519003B31D2 /* Problem001.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem001.h; sourceTree = "<group>"; };
+		43093E061ABC6519003B31D2 /* Problem001.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem001.m; sourceTree = "<group>"; };
 		439C15151ABC6075006F2964 /* ProjectEuler-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProjectEuler-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		439C15191ABC6075006F2964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		439C151A1ABC6075006F2964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		439C151C1ABC6075006F2964 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		439C151D1ABC6075006F2964 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		439C151F1ABC6075006F2964 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		439C15201ABC6075006F2964 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		439C15231ABC6075006F2964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		439C15251ABC6075006F2964 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		439C15281ABC6075006F2964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,6 +69,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43093DFF1ABC62CE003B31D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43093DF91ABC62B9003B31D2 /* Problem.h */,
+				43093DFA1ABC62B9003B31D2 /* Problem.m */,
+				43093E051ABC6519003B31D2 /* Problem001.h */,
+				43093E061ABC6519003B31D2 /* Problem001.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		43093E001ABC62E2003B31D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				439C15221ABC6075006F2964 /* Main.storyboard */,
+				439C15271ABC6075006F2964 /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		43093E011ABC62F6003B31D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				43093DFC1ABC62C5003B31D2 /* ProblemViewController.h */,
+				43093DFD1ABC62C5003B31D2 /* ProblemViewController.m */,
+				43093E021ABC6396003B31D2 /* ProblemsTableViewController.h */,
+				43093E031ABC6396003B31D2 /* ProblemsTableViewController.m */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		439C150C1ABC6075006F2964 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +123,12 @@
 		439C15171ABC6075006F2964 /* ProjectEuler-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				43093DFF1ABC62CE003B31D2 /* Model */,
+				43093E001ABC62E2003B31D2 /* View */,
+				43093E011ABC62F6003B31D2 /* Controller */,
 				439C151C1ABC6075006F2964 /* AppDelegate.h */,
 				439C151D1ABC6075006F2964 /* AppDelegate.m */,
-				439C151F1ABC6075006F2964 /* ViewController.h */,
-				439C15201ABC6075006F2964 /* ViewController.m */,
-				439C15221ABC6075006F2964 /* Main.storyboard */,
 				439C15251ABC6075006F2964 /* Images.xcassets */,
-				439C15271ABC6075006F2964 /* LaunchScreen.xib */,
 				439C15181ABC6075006F2964 /* Supporting Files */,
 			);
 			path = "ProjectEuler-iOS";
@@ -219,9 +260,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				439C15211ABC6075006F2964 /* ViewController.m in Sources */,
+				43093DFE1ABC62C5003B31D2 /* ProblemViewController.m in Sources */,
+				43093DFB1ABC62B9003B31D2 /* Problem.m in Sources */,
 				439C151E1ABC6075006F2964 /* AppDelegate.m in Sources */,
+				43093E071ABC6519003B31D2 /* Problem001.m in Sources */,
 				439C151B1ABC6075006F2964 /* main.m in Sources */,
+				43093E041ABC6396003B31D2 /* ProblemsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +458,7 @@
 				439C153A1ABC6075006F2964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		439C153B1ABC6075006F2964 /* Build configuration list for PBXNativeTarget "ProjectEuler-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +467,7 @@
 				439C153D1ABC6075006F2964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
