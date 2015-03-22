@@ -23,6 +23,6 @@
 
 - (void)solve
 {
-    self.answerString = @"Calculating...";
+    self.answerString = [NSString stringWithFormat:@"\n\nCalculating answer for %@...",NSStringFromClass(self.class)];
 }
 @end
