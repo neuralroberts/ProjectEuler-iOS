@@ -88,16 +88,15 @@
 				437DC45E1ABCA1B100332B17 /* Problem003.m */,
 			);
 			name = Model;
-			path = ..;
+			path = ../Model;
 			sourceTree = "<group>";
 		};
 		43093E001ABC62E2003B31D2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				439C15221ABC6075006F2964 /* Main.storyboard */,
-				439C15271ABC6075006F2964 /* LaunchScreen.xib */,
 			);
 			name = View;
+			path = ../View;
 			sourceTree = "<group>";
 		};
 		43093E011ABC62F6003B31D2 /* Controller */ = {
@@ -109,7 +108,7 @@
 				43093E031ABC6396003B31D2 /* ProblemsTableViewController.m */,
 			);
 			name = Controller;
-			path = ..;
+			path = ../Controller;
 			sourceTree = "<group>";
 		};
 		439C150C1ABC6075006F2964 = {
@@ -138,6 +137,8 @@
 				43093E011ABC62F6003B31D2 /* Controller */,
 				439C151C1ABC6075006F2964 /* AppDelegate.h */,
 				439C151D1ABC6075006F2964 /* AppDelegate.m */,
+				439C15221ABC6075006F2964 /* Main.storyboard */,
+				439C15271ABC6075006F2964 /* LaunchScreen.xib */,
 				439C15251ABC6075006F2964 /* Images.xcassets */,
 				439C15181ABC6075006F2964 /* Supporting Files */,
 			);
