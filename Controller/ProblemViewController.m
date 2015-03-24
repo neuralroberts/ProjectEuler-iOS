@@ -10,7 +10,7 @@
 
 @interface ProblemViewController ()
 
-@property (strong, nonatomic) IBOutlet UILabel *answerLabel;
+@property (strong, nonatomic) IBOutlet UITextView *answerLabel;
 
 @end
 
@@ -44,7 +44,7 @@
 
 - (void)answerDidChange
 {
-    self.answerLabel.text = self.problem.answerString;
+    [self.answerLabel setText:self.problem.answerString];
 }
 
 @end

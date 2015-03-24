@@ -22,6 +22,7 @@
         NSArray *problems = [NSArray arrayWithObjects:[Problem001 class],
                              [Problem002 class],
                              [Problem003 class],
+                             [Problem004 class],
                              nil];
         _problems = problems;
     }

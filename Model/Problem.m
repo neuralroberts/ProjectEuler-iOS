@@ -17,7 +17,9 @@
     NSLog(@"%@",answerString);
     
     if (self.delegate && [self.delegate respondsToSelector:@selector(answerDidChange)]) {
-        [self.delegate answerDidChange];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.delegate answerDidChange];
+        });
     }
 }
 
