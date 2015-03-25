@@ -23,6 +23,7 @@
                              [Problem002 class],
                              [Problem003 class],
                              [Problem004 class],
+                             [Problem005 class],
                              nil];
         _problems = problems;
     }
