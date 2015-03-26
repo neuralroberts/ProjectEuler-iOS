@@ -21,8 +21,6 @@
 {
     [super solve];
     
-    NSTimeInterval startTime = [NSDate timeIntervalSinceReferenceDate];
-    
     long answer = 0;
     long candidate = 20;
     
@@ -41,8 +39,6 @@
         candidate+=20;
     }
     
-    NSTimeInterval elapsed = [NSDate timeIntervalSinceReferenceDate] - startTime;
-    NSLog(@"%f seconds elapsed",elapsed);
     self.answerString = [NSString stringWithFormat:@"%ld",answer];
 }
 

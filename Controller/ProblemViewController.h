@@ -13,6 +13,8 @@
 #import "Problem003.h"
 #import "Problem004.h"
 #import "Problem005.h"
+#import "Problem006.h"
+
 @interface ProblemViewController : UIViewController <ProblemDelegate>
 
 @property (strong, nonatomic) Problem *problem;

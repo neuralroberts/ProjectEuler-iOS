@@ -11,6 +11,7 @@
 @interface ProblemViewController ()
 
 @property (strong, nonatomic) IBOutlet UITextView *answerLabel;
+@property (nonatomic) NSTimeInterval lastAnswerTime;
 
 @end
 
@@ -45,6 +46,12 @@
 - (void)answerDidChange
 {
     [self.answerLabel setText:self.problem.answerString];
+    
+    if (self.lastAnswerTime) {
+        NSTimeInterval elapsed = [NSDate timeIntervalSinceReferenceDate] - self.lastAnswerTime;
+        NSLog(@"%f seconds elapsed",elapsed);
+    }
+    self.lastAnswerTime = [NSDate timeIntervalSinceReferenceDate];
 }
 
 @end

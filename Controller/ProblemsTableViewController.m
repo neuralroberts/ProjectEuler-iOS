@@ -19,11 +19,13 @@
 - (NSArray*)problems
 {
     if (!_problems) {
-        NSArray *problems = [NSArray arrayWithObjects:[Problem001 class],
-                             [Problem002 class],
-                             [Problem003 class],
-                             [Problem004 class],
+        NSArray *problems = [NSArray arrayWithObjects:
+                             [Problem006 class],
                              [Problem005 class],
+                             [Problem004 class],
+                             [Problem003 class],
+                             [Problem002 class],
+                             [Problem001 class],
                              nil];
         _problems = problems;
     }
