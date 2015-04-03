@@ -15,6 +15,7 @@
 #import "Problem005.h"
 #import "Problem006.h"
 #import "Problem007.h"
+#import "Problem008.h"
 
 @interface ProblemViewController : UIViewController <ProblemDelegate>
 

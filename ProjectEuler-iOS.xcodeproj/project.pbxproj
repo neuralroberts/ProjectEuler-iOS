@@ -23,6 +23,7 @@
 		439C15261ABC6075006F2964 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439C15251ABC6075006F2964 /* Images.xcassets */; };
 		439C15291ABC6075006F2964 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 439C15271ABC6075006F2964 /* LaunchScreen.xib */; };
 		439C15351ABC6075006F2964 /* ProjectEuler_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 439C15341ABC6075006F2964 /* ProjectEuler_iOSTests.m */; };
+		43B970F41ACF2D1D001071FB /* Problem008.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B970F31ACF2D1D001071FB /* Problem008.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		439C152E1ABC6075006F2964 /* ProjectEuler-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProjectEuler-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		439C15331ABC6075006F2964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		439C15341ABC6075006F2964 /* ProjectEuler_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectEuler_iOSTests.m; sourceTree = "<group>"; };
+		43B970F21ACF2D1D001071FB /* Problem008.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem008.h; sourceTree = "<group>"; };
+		43B970F31ACF2D1D001071FB /* Problem008.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem008.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				432F47FA1AC43A920062A13E /* Problem006.m */,
 				4325AB371AC61BA30028D50A /* Problem007.h */,
 				4325AB381AC61BA30028D50A /* Problem007.m */,
+				43B970F21ACF2D1D001071FB /* Problem008.h */,
+				43B970F31ACF2D1D001071FB /* Problem008.m */,
 			);
 			name = Model;
 			path = ../Model;
@@ -303,6 +308,7 @@
 				432F47FB1AC43A920062A13E /* Problem006.m in Sources */,
 				43093E0C1ABC77C9003B31D2 /* Problem002.m in Sources */,
 				43093E041ABC6396003B31D2 /* ProblemsTableViewController.m in Sources */,
+				43B970F41ACF2D1D001071FB /* Problem008.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
