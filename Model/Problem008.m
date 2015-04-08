@@ -64,17 +64,22 @@
     
     NSMutableArray *adjacentDigitsArray = [NSMutableArray array];
     __block long largestProduct = 0;
-    __block NSArray *largestProductDigits;
+    __block NSArray *largestProductDigits = @[@"0"];
     
     [digitString enumerateSubstringsInRange:NSMakeRange(0, digitString.length) options:NSStringEnumerationByComposedCharacterSequences usingBlock:^(NSString *substring, NSRange substringRange, NSRange enclosingRange, BOOL *stop) {
-        [adjacentDigitsArray addObject:substring];
-        if (adjacentDigitsArray.count > 13) [adjacentDigitsArray removeObjectAtIndex:0];
-        if (adjacentDigitsArray.count == 13) {
-            long product = 1;
-            for (NSString *digit in adjacentDigitsArray) product *= [digit intValue];
-            if (product > largestProduct) {
-                largestProduct = product;
-                largestProductDigits = [adjacentDigitsArray copy];
+        
+        //dont need to test an array containing 0
+        if ([substring isEqualToString:@"0"]) [adjacentDigitsArray removeAllObjects];
+        else {
+            [adjacentDigitsArray addObject:substring];
+            if (adjacentDigitsArray.count > 13) [adjacentDigitsArray removeObjectAtIndex:0];
+            if (adjacentDigitsArray.count == 13) {
+                long product = 1;
+                for (NSString *digit in adjacentDigitsArray) product *= [digit intValue];
+                if (product > largestProduct) {
+                    largestProduct = product;
+                    largestProductDigits = [adjacentDigitsArray copy];
+                }
             }
         }
     }];
