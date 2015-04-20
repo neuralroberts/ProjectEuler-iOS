@@ -12,6 +12,7 @@
 		43093E041ABC6396003B31D2 /* ProblemsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43093E031ABC6396003B31D2 /* ProblemsTableViewController.m */; };
 		43093E071ABC6519003B31D2 /* Problem001.m in Sources */ = {isa = PBXBuildFile; fileRef = 43093E061ABC6519003B31D2 /* Problem001.m */; };
 		43093E0C1ABC77C9003B31D2 /* Problem002.m in Sources */ = {isa = PBXBuildFile; fileRef = 43093E0B1ABC77C9003B31D2 /* Problem002.m */; };
+		431CE9381AE52A1A009A281C /* Problem010.m in Sources */ = {isa = PBXBuildFile; fileRef = 431CE9371AE52A1A009A281C /* Problem010.m */; };
 		4325AB391AC61BA30028D50A /* Problem007.m in Sources */ = {isa = PBXBuildFile; fileRef = 4325AB381AC61BA30028D50A /* Problem007.m */; };
 		4327E3421AD321CD00BA9010 /* Problem009.m in Sources */ = {isa = PBXBuildFile; fileRef = 4327E3411AD321CD00BA9010 /* Problem009.m */; };
 		432F47FB1AC43A920062A13E /* Problem006.m in Sources */ = {isa = PBXBuildFile; fileRef = 432F47FA1AC43A920062A13E /* Problem006.m */; };
@@ -48,6 +49,8 @@
 		43093E061ABC6519003B31D2 /* Problem001.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem001.m; sourceTree = "<group>"; };
 		43093E0A1ABC77C9003B31D2 /* Problem002.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem002.h; sourceTree = "<group>"; };
 		43093E0B1ABC77C9003B31D2 /* Problem002.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem002.m; sourceTree = "<group>"; };
+		431CE9361AE52A1A009A281C /* Problem010.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem010.h; sourceTree = "<group>"; };
+		431CE9371AE52A1A009A281C /* Problem010.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem010.m; sourceTree = "<group>"; };
 		4325AB371AC61BA30028D50A /* Problem007.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem007.h; sourceTree = "<group>"; };
 		4325AB381AC61BA30028D50A /* Problem007.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem007.m; sourceTree = "<group>"; };
 		4327E3401AD321CD00BA9010 /* Problem009.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem009.h; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				43B970F31ACF2D1D001071FB /* Problem008.m */,
 				4327E3401AD321CD00BA9010 /* Problem009.h */,
 				4327E3411AD321CD00BA9010 /* Problem009.m */,
+				431CE9361AE52A1A009A281C /* Problem010.h */,
+				431CE9371AE52A1A009A281C /* Problem010.m */,
 			);
 			name = Model;
 			path = ../Model;
@@ -303,6 +308,7 @@
 			files = (
 				43093DFE1ABC62C5003B31D2 /* ProblemViewController.m in Sources */,
 				436EB69A1AC3203D0014B2E1 /* Problem005.m in Sources */,
+				431CE9381AE52A1A009A281C /* Problem010.m in Sources */,
 				43093DFB1ABC62B9003B31D2 /* Problem.m in Sources */,
 				4325AB391AC61BA30028D50A /* Problem007.m in Sources */,
 				439C151E1ABC6075006F2964 /* AppDelegate.m in Sources */,
