@@ -19,36 +19,33 @@
 {
     [super solve];
     
-    unsigned long sum = 0;
+    long limit = 2000000;
+    long crosslimit = (long)floor(sqrt(limit));
+    bool *sieve;
+    sieve = malloc((limit+1) * sizeof *sieve);
     
-    for (unsigned long n = 1; n < 2000000; n++) {
-        if ([self isPrime:n]) {
-            sum += n;
+    if(sieve == NULL) {
+        self.answerString = @"not enough memory";
+        return;
+    }
+    
+    for (long n = 4; n < limit; n+=2) sieve[n] = YES;
+    for (long n = 3; n < crosslimit; n+=2) {
+        if (!sieve[n]) {
+            for (long m = n*n; m < limit; m+=2*n) {
+                sieve[m] = YES;
+            }
         }
+    }
+    
+    unsigned long sum = 0;
+    for (long n = 2; n < limit; n++) {
+        if (!sieve[n]) sum += n;
     }
     
     self.answerString = [NSString stringWithFormat:@"%ld",sum];
 }
 
-- (BOOL)isPrime:(long)n
-{
-    if (n < 9) {
-        if (n == 2 || n == 3 || n == 5 || n == 7) return YES;
-        else return NO;
-    }
-    if (n % 2 == 0) return NO;
-    if (n % 3 == 0) return NO;
-    else {
-        unsigned long rootn = (unsigned long)floor(sqrt(n));
-        unsigned long factor = 5;
-        while (factor <= rootn) {
-            //from problem 7 overview: All primes greater than 3 can be written in the form 6k+/-1.
-            if (n % factor == 0) return NO;
-            if (n % (factor+2) == 0) return NO;
-            factor += 6;
-        }
-    }
-    return YES;
-}
+
 
 @end
